@@ -4,13 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>PROYECTO DELIVERY | PROYECTO DELIVERY - PLAN 111MIL</title>
+  <title>DOCUMENTACIÓN | PROYECTO DELIVERY - PLAN 111MIL</title>
   <meta name="description" content="Documentación del proyecto modulo delivery para el plan 111mil - UTN">
-
-
   <link rel="preload" href="./assets/css/1.styles.ab74aaea.css" as="style">
-  <link rel="preload" href="./assets/js/app.72a82799.js" as="script">
-  <link rel="preload" href="./assets/js/0.b9d43dd3.js" as="script">
+  <link rel="preload" href="./assets/js/app.46ff74f3.js" as="script">
+  <link rel="preload" href="./assets/js/0.70eb52a5.js" as="script">
   <link rel="stylesheet" href="./assets/css/1.styles.ab74aaea.css">
 </head>
 
@@ -26,7 +24,7 @@
         <a href="/" class="home-link router-link-exact-active router-link-active">
           <!---->
           <span class="site-name">
-            PROYECTO DELIVERY
+            DOCUMENTACIÓN
           </span>
         </a>
         <div class="links">
@@ -111,6 +109,9 @@
                 <li>
                   <a href="/#historial-de-versiones" class="sidebar-link">Historial de versiones</a>
                 </li>
+                <li>
+                  <a href="/#integrantes" class="sidebar-link">Integrantes</a>
+                </li>
               </ul>
             </div>
           </li>
@@ -128,17 +129,18 @@
           <p>En el siguiente documento se desarrolla las características esenciales de un sistema de información correspondiente
             al dominio de Caso Práctico Nº2 - Pizzeria en el marco del Plan111.</p>
           <p>Estas características comprenden la definición de los
-            <code>objetivos</code>,
-            <code>límites</code>,
-            <code>alcances del sistema</code>,
-            <code>los procesos</code> que se llevan a cabo dentro del mismo, su
-            <code>arquitectura de software</code>,
-            <code>tecnologías aplicadas</code> en el desarrollo, definición de la estructuras de la base de datos a través del
-            <code>diagrama de entidad-relación</code>, la
-            <code>diagramación del modelo</code> del sistema en lenguaje de modelado unificado (UML),
-            <code>diagrama de casos de uso</code> y
-            <code>máquina de estado</code>. Para la obtención de datos necesarios se utilizó el dominio de negocio aportado por
-            el Plan111 como base añadiendo el proceso de Delivery.</p>
+            <a href="#objetivos">objetivos</a>,
+            <a href="#limite">límites</a>,
+            <a href="#alcances">alcances del sistema</a>, los
+            <a href="#procesos-que-se-llevan-a-cabo">procesos que se llevan a cabo</a> dentro del mismo, su
+            <a href="#arquitectura-de-software">arquitectura de software</a>,
+            <a href="#tecnologias-aplicadas">tecnologías aplicadas</a> en el desarrollo, definición de la estructuras de la base de datos a través del
+            <a
+              href="#diagrama-de-entidad-relacion-der">diagrama de entidad-relación</a>, la
+              <a href="#diagrama-de-clases-uml">diagramación del modelo</a> del sistema en lenguaje de modelado unificado (UML),
+              <a href="#diagrama-casos-de-usos-use-case">diagrama de casos de uso</a> y
+              <a href="#">máquina de estado</a>. Para la obtención de datos necesarios se utilizó el dominio de negocio aportado por
+              el Plan111 como base añadiendo el proceso de Delivery.</p>
           <h3 id="dominio">
             <a href="#dominio" aria-hidden="true" class="header-anchor">#</a> Dominio</h3>
           <p>A continuación se detalla el enunciado para conocer el dominio con el cual se trabajará.</p>
@@ -153,9 +155,10 @@
             <code>ingredientes</code> y el
             <code>precio</code> según el
             <code>tamaño</code> y el
-            <code>tipo (a la piedra, a la parrilla, de molde)</code> de la pizza. Los clientes realizan sus pedidos en el mostrador
-            o por teléfono.</p>
-          <p>El pedido debe contener el
+            <code>tipo (a la piedra, a la parrilla, de molde)</code> de la
+            <code>pizza</code>. Los clientes realizan sus pedidos en el mostrador o por teléfono.</p>
+          <p>El
+            <code>pedido</code> debe contener el
             <code>nombre del cliente</code>, para llamarlo cuando su pedido está listo; la
             <code>cantidad de pizzas</code>, el
             <code>tamaño</code>, la
@@ -163,9 +166,9 @@
             <code>fecha del pedido</code>, la
             <code>hora</code> en la que el pedido debe entregarse y la
             <code>demora estimada</code> informada al cliente.</p>
-          <p>El pedido va a la cocina y cuando está preparado se informa al que lo tomó para que se genere la factura correspondiente
-            y se le entregue el pedido al cliente.</p>
-          <p>Esta empresa también cuenta con el servicio de delivey, cuando se toma dicho pedido (puede ser telefónico) deberán
+          <p>El pedido va a la cocina y cuando está preparado se informa al que lo tomó para que se genere la
+            <code>factura</code> correspondiente y se le entregue el pedido al cliente.</p>
+          <p>Esta empresa también cuenta con el servicio de delivery, cuando se toma dicho pedido (puede ser telefónico) deberán
             solicitarse datos extras como
             <code>direccion</code> y
             <code>número de teléfono</code>. Con los datos solicitados, el pedido será entregado al
@@ -370,7 +373,7 @@
               </tr>
               <tr>
                 <td>Última Modificación:</td>
-                <td>26/04/2018</td>
+                <td>02/05/2018</td>
               </tr>
               <tr>
                 <td>Versión Actual:</td>
@@ -378,6 +381,8 @@
               </tr>
             </tbody>
           </table>
+          <h2 id="integrantes">
+            <a href="#integrantes" aria-hidden="true" class="header-anchor">#</a> INTEGRANTES</h2>
           <table>
             <thead>
               <tr>
@@ -388,15 +393,57 @@
             <tbody>
               <tr>
                 <td>Profesores</td>
-                <td>Araceli Mendoza - Nicolás Oliva - Ramiro</td>
+                <td>Araceli Mendoza</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="https://github.com/nicolasoliva62" target="_blank" rel="noopener noreferrer">Nicolás Oliva</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ramiro Bertalot</td>
               </tr>
               <tr>
                 <td>Equipo A</td>
-                <td>Guido Cavallo - Sebastián Cuaglia - Ruben Malizia - Lionel Scattolini</td>
+                <td>
+                  <a href="https://github.com/SrShark" target="_blank" rel="noopener noreferrer">Guido Cavallo</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="https://github.com/sebacuaglia" target="_blank" rel="noopener noreferrer">Sebastián Cuaglia</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="https://github.com/Malizia27" target="_blank" rel="noopener noreferrer">Ruben Malizia</a>
+                </td>
               </tr>
               <tr>
                 <td>Equipo B</td>
-                <td>Daniel Rosso - Pablo Mansilla - Federico Boccardo - Hernán Grosso</td>
+                <td>
+                  <a href="https://github.com/daniel1rosso" target="_blank" rel="noopener noreferrer">Daniel Rosso</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="https://github.com/paulmansilla" target="_blank" rel="noopener noreferrer">Pablo Mansilla</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="https://github.com/Feedeac" target="_blank" rel="noopener noreferrer">Federico Boccardo</a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Hernán Grosso</td>
               </tr>
             </tbody>
           </table>
@@ -406,8 +453,8 @@
       </div>
     </div>
   </div>
-  <script src="./assets/js/0.b9d43dd3.js" defer></script>
-  <script src="./assets/js/app.72a82799.js" defer></script>
+  <script src="./assets/js/0.70eb52a5.js" defer></script>
+  <script src="./assets/js/app.46ff74f3.js" defer></script>
 </body>
 
 </html>
